@@ -1,0 +1,375 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: url(./media/12711-mountains-peak-alps-snowy-mountain-range-4k.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/* NAV-BAR */
+.nav-bar{
+    max-width: 960px;
+    height: 90px;
+    margin: auto;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar__container{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar__img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.nav-bar__ul{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar__li{
+    list-style: none;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+    position: relative;
+}
+
+.nav-bar__link-history::after{
+    content: "";
+    position: absolute;
+    display: block;
+    left: -2%;
+    bottom: -5px;
+    width: 90px;
+    height: 2px;
+    background-color: white;
+}
+
+.nav-bar__link-team:after{
+    content: "";
+    position: absolute;
+    display: block;
+    left: -2%;
+    bottom: -5px;
+    width: 70px;
+    height: 2px;
+    background-color: white;
+}
+
+/* Text Cover */
+.container-text{
+    max-width: 960px;
+    padding: 0px 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container-text__h1{
+    max-width: 960px;
+    padding: 0px 20px;
+    margin: auto;
+    height: 110px;
+    font-size: 110px;
+}
+
+.container-text__paragraph{
+    max-width: 960px;
+    padding: 0px 20px;
+    margin: auto;
+    height: 120px;
+    font-size: 90px;
+    font-weight: bold;
+    color: rgba(31, 61, 108, 0.982);
+}
+
+/* Second Section */
+.second-section{
+    max-width: 960px;
+    padding: 0px 20px;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show-bar{
+    /* max-width: 960px; */
+    
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.show-bar__img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.show-bar__paragraph{
+    font-weight: 1000;
+}
+
+.show-bar__container-links{
+    width: 250px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.show-bar__links::after{
+    content: "";
+    position: absolute;
+    display: block;
+    left: -1;
+    bottom: -5px;
+    width: 90px;
+    height: 2px;
+    background-color: black;
+}
+
+.link-second::after{
+    content: "";
+    position: absolute;
+    display: block;
+    left: -1;
+    bottom: -5px;
+    width: 70px;
+    height: 2px;
+    background-color: black;
+}
+
+/* Third Section */
+.third-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./media/clouds-over.jpg);
+    background-size: cover;
+}
+
+.third-section__container{
+    max-width: 960px;
+    height: 600px;
+    margin: auto;
+}
+
+.third-section__text-container{
+    width: 200px;
+    padding-left: 15px;
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.third-section__h1{
+    margin-top: 70px;
+    font-size: 80px;
+    color: rgb(104, 96, 96);
+    opacity: 0.5;
+}
+
+.third-section__h2{
+    color: rgb(50, 48, 48);
+    position: absolute;
+    margin: 90px 0px 0px 0px;
+    top: 0px;
+    left: 90px;
+}
+
+.third-section__paragraph{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Carousel */
+.slider-container{
+    height: 150px;
+    background-color: grey;
+    background-color: transparent;
+}
+
+.carousel__container{
+    width: 960px;
+    margin: auto;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.carousel__list{
+    overflow: hidden;
+}
+
+.carousel__img{
+    width: 200px;
+    height: 100px;
+}
+
+/* Section Fourth */
+.section-fourth{
+    border: 1px solid red;
+}
+
+.sectionFour__container{
+    height: 180px;
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.section-fourth__h1{
+    font-size: 60px;
+    color: grey;
+}
+
+.section-fourth__paragraph{
+    font-weight: 600;
+}
+
+.section-fourth__paragraph{
+    position: absolute;
+    top: 0;
+    left: 230px;
+    margin: 80px 0px 0px 0px;
+}
+
+.section-fourth__p-container{
+    background-color: rgb(59, 59, 79);
+    height: 50px;
+    padding-top: 15px;
+}
+
+.section-fourth__secondContainer{
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    gap: 5px;
+}
+
+.section-fourth__mountain{
+    background-color: grey;
+    padding: 5px;
+    font-size: bold;
+}
+
+.section-fourth__mountainSecond{
+    padding: 5px;
+    color: grey;
+}
+
+/* Schedule Section*/
+.schedule-section{
+    background-image: url(./media/schedulePic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.schedule__main-container{
+    max-width: 960px;
+    height: 100vh;
+    margin: auto;
+    padding: 0px 20px;
+
+}
+
+.schedule__container{
+    width: 350px;
+    height: 230px;
+    display: inline-block;
+    margin-top: 110px;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.schedule__h1{
+    margin-left: 35px;
+    color: rgb(50, 76, 124);
+    font-size: bold;
+}
+
+.schedule__container-boxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.schedule__dates{
+    line-height: 30px;
+}
+
+/* Footer */
+.footer{
+    background-color: rgb(82, 96, 143);
+}
+
+.footer__container{
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer__img{
+    width: 45px;
+    height: 45px;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.footer__paragraph{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(63, 61, 64);
+}
+
+.footer__copyright{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(63, 61, 64);
+}
+
+/* media */
+@media (max-width: 685px){
+    .carousel__container{
+        width: 500px;
+    }
+}
